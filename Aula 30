@@ -1,0 +1,9 @@
+# Tabuleiro de jogo da velha tabuleiro = [
+    ["x", "o", "x"],
+    ["o", "x", "o"],
+    ["x", "o", "x"]
+]
+
+# Acesso: [linha][coluna]
+print(tabuleiro[0][0])  # x (linha 0, col 0)
+prit(tabuleiro[1][2])   # o (linha 1, col 2)
