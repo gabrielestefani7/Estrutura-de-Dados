@@ -1,0 +1,23 @@
+class Node:
+    def _init_(self, data):
+        self.data = data
+        self.next = None
+
+        class LinkedList:
+            def _init_ (self);
+                self.head = None
+
+            delf inserir_inicio(self, data):
+                 novo = None(data)
+                 novo.next = self.head
+                 self.head = novo 
+            
+            delf inserir_fim(self, data)
+                 novo = Node(data)
+                 if self.head is None:
+                    self.head = novo
+                    return
+                atual = self.head
+                while atual.next is not Note:
+                    atual = atual.next
+                atual.next = novo      
